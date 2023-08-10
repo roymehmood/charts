@@ -1,0 +1,23 @@
+apiVersion: v1
+entries:
+  fluentd-cloudwatch:
+  - apiVersion: v1
+    appVersion: v1.7.3-debian-cloudwatch-1.0
+    created: "2023-08-10T14:18:46.451105612+05:00"
+    deprecated: true
+    description: DEPRECATED A Fluentd CloudWatch Helm chart for Kubernetes.
+    digest: 7aaad100c923b9b28bf30deb559c8ab325c0cce383a6467e3c55da32504f3b2b
+    home: https://www.fluentd.org/
+    icon: https://raw.githubusercontent.com/fluent/fluentd-docs/master/public/logo/Fluentd_square.png
+    keywords:
+    - fluentd
+    - cloudwatch
+    - logging
+    name: fluentd-cloudwatch
+    sources:
+    - https://github.com/kubernetes/charts
+    - https://github.com/fluent/fluentd-kubernetes-daemonset
+    urls:
+    - https://github.com/roymehmood/charts/tree/master/fluentd-cloudwatch-0.13.2.tgz
+    version: 0.13.2
+generated: "2023-08-10T14:18:46.450616311+05:00"
